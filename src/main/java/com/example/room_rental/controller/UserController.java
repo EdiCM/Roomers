@@ -21,6 +21,7 @@ public class UserController {
     public User createUser(@RequestBody User user) {
         return userRepository.save(user);
     }
+
     // DEVUELVEME TODOS LOS USUARIOS
     @GetMapping
     public List<User> getAllUsers() {
