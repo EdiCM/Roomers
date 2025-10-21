@@ -31,3 +31,20 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# En la raíz del proyecto (room-rental/)
+# Crear o editar .gitignore
+
+# Base de datos H2 (no debe ir en Git)
+data/
+*.mv.db
+*.trace.db
+
+# IntelliJ IDEA
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
